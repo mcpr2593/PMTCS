@@ -3107,7 +3107,8 @@ ${desc}`)
             tobz.reply(from, snk, id)
             break
         default:
-            if (!isGroupMsg) return tobz.reply(from, 'Jika Ingin Menggunakan Bot Harap Masuk Ke Dalam Grup Elaina, Link Ada Di Bio atau Bisa Mengetik #elainagroup!\nJika Ingin Sewa Bot atau Bikin Bot Harap Ketik *#iklan*', id)
+            if (!isGroupMsg) return tobz.reply(from, `Assalamu’alaikum, ${pushname}!\nTerima kasih telah menghubungi\nPoliteknik Muhammadiyah Tegal
+\n\nPusat informasi:\n\n            `, id)
             if (command.startsWith('#')) {
                 tobz.reply(from, `Maaf ${pushname}, Command *${args[0]}* Tidak Terdaftar Di Dalam *#menu*!`, id)
             }
